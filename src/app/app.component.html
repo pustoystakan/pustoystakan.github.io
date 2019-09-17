@@ -1,3 +1,26 @@
-<div class="main-app-container flex-column full-width">
-  <img class="margin-auto" src="../assets/logo.svg"/>
+<div class="main-app-container flex-column justify-around full-width">
+  <div class="logo-container margin-auto"
+       [ngClass]="{'logo-init': showElement}">
+    <img class="stakan-logo"
+         src="../assets/logo_dashed_rounded.svg"/>
+
+    <div class="action-container flex-row">
+      <div class="box">
+        <a href="mailto:info@pustoystakan.com?Subject=Hello"
+           class="btn btn-three"
+           target="_blank">
+          <span>MAIL</span>
+        </a>
+      </div>
+
+      <a href="tel:+79523574576"
+         class="box">
+        <div class="btn btn-three">
+          <span>CALL</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
 </div>

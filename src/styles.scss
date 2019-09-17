@@ -1,7 +1,18 @@
+@font-face {
+  font-family: Karbon-Regular;
+  src: url('assets/Karbon-Regular.otf');
+}
+
+@font-face {
+  font-family: Karbon-Medium;
+  src: url('assets/Karbon-Medium.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #0B4767;
+  font-family: Karbon-Regular;
 }
 
 .full-height {
