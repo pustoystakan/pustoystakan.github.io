@@ -1,10 +1,9 @@
 <div class="main-app-container flex-column justify-around full-width">
   <div class="logo-container margin-auto"
        [ngClass]="{'logo-init': showElement}">
-    <img class="stakan-logo"
-         src="../assets/logo_dashed_rounded.svg"/>
+    <app-logo class="stakan-logo"></app-logo>
 
-    <div class="action-container flex-row">
+    <div class="action-container flex-row justify-between">
       <div class="box">
         <a href="mailto:info@pustoystakan.com?Subject=Hello"
            class="btn btn-three"

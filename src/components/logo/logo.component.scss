@@ -1,0 +1,11 @@
+.st0 {
+  stroke-dasharray: 3200;
+  stroke-dashoffset: 3200;
+  animation: animate 7s forwards 2s;
+}
+
+@keyframes animate {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
