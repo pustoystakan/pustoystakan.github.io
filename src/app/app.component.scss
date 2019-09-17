@@ -1,13 +1,16 @@
 .main-app-container {
   height: 100vh;
   background-color: #0B4767;
+
+  a, .box {
+    text-decoration-line: none;
+  }
 }
 
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration-color: white;
 }
 
 .box + .box {

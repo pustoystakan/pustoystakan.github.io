@@ -14,3 +14,17 @@
     stroke-dashoffset: 0;
   }
 }
+
+@keyframes animate-clockwise {
+  to {
+    stroke-dashoffset: -3200;
+  }
+
+  30% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+}
