@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration-color: white;
 }
 
 .box + .box {
@@ -22,17 +23,13 @@
     opacity: 1;
     filter: blur(0);
   }
-
-  .stakan-logo {
-    width: 540px;
-  }
 }
 
 .btn {
   line-height: 50px;
   height: 50px;
   text-align: center;
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
