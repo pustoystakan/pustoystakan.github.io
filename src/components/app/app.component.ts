@@ -24,7 +24,19 @@ export class AppComponent implements AfterViewInit {
     if (event.deltaX !== 0 && event.deltaY === 0) {
       return;
     }
-    this.divScrollElement.nativeElement.scrollLeft += -event.wheelDelta;
+
+    let delta;
+    if (event.wheelDelta !== undefined) {
+      delta = -event.wheelDelta;
+    } else {
+      if (event.deltaX) {
+        return;
+      }
+
+      delta = event.deltaY > 0 ? 70 : -70;
+    }
+
+    this.divScrollElement.nativeElement.scrollLeft += delta;
     event.preventDefault();
   }
 }
