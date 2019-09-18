@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy && git checkout master && git fetch && git pull origin gh-pages && git push && git checkout developmentn"
+    "deploy": "ng deploy && git checkout master && git fetch && git pull origin gh-pages && git push && git checkout development"
   },
   "private": true,
   "dependencies": {
