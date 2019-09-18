@@ -21,6 +21,9 @@ export class AppComponent implements AfterViewInit {
   }
 
   onMouseWheel(event) {
+    if (event.deltaX !== 0 && event.deltaY === 0) {
+      return;
+    }
     this.divScrollElement.nativeElement.scrollLeft += -event.wheelDelta;
     event.preventDefault();
   }
