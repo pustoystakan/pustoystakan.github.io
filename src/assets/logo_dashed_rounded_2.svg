@@ -4,24 +4,20 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#E21235;stroke-width:7;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#E21235;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:20,15,30,15;}
-	
-		.st2{fill:none;stroke:#E21235;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12.3536,17.5009,20.5893,17.5009;}
+	.st2{fill:none;stroke:#E21235;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12.3536,17.5009,20.5893,17.5009;}
 	.st3{fill:#FFFFFF;}
-
 </style>
-  <circle class="st0" cx="170" cy="155" r="139.4"></circle>
+
+<circle class="st0" cx="170" cy="155" r="139.4"></circle>
 <circle class="st1" cx="170" cy="155" r="148.5">
-<animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="60s" fill="remove" from="0 170.042 154.936" repeatCount="indefinite" restart="always" to="-360 170.042 154.936" type="rotate">
+  <animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="60s" fill="remove" from="0 170.042 154.936" repeatCount="indefinite" restart="always" to="-360 170.042 154.936" type="rotate">
 	</animateTransform>
 </circle>
-<g>
-	<circle class="st2" cx="170" cy="155" r="129.8">
-		<animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="40s" fill="remove" from="0 170.042 154.936" repeatCount="indefinite" restart="always" to="360 170.042 154.936" type="rotate">
-		</animateTransform>
-	</circle>
-</g>
-<g id="SvgjsG1104">
-</g>
+<circle class="st2" cx="170" cy="155" r="129.8">
+  <animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="40s" fill="remove" from="0 170.042 154.936" repeatCount="indefinite" restart="always" to="360 170.042 154.936" type="rotate">
+  </animateTransform>
+</circle>
+
 <g>
 	<g id="SvgjsG1106" transform="matrix(0.8353221652839983,0,0,0.8353221652839983,128.2338901425495,61.89976159508601)">
 		<g id="SvgjsG1107">

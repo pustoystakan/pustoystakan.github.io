@@ -6,7 +6,14 @@
 .st0 {
   stroke-dasharray: 3200;
   stroke-dashoffset: 3200;
-  animation: animate 7s forwards 2s;
+  animation: animate-clockwise 8s forwards infinite;
+  animation-delay: 3.5s;
+}
+
+.st1, .st2 {
+  stroke-dasharray: 3200;
+  stroke-dashoffset: 3200;
+  animation: animate-clockwise 8s ease-in-out infinite;
 }
 
 @keyframes animate {
@@ -26,5 +33,19 @@
 
   70% {
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animatedShadow {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 300% 0;
+  }
+
+  100% {
+    background-position: 0 0;
   }
 }
