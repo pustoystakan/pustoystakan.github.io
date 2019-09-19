@@ -3,11 +3,10 @@
   <div class="flex-row background-container"
        (wheel)="onMouseWheel($event)">
     <div class="main-app-container flex-column justify-around full-width">
-      <div class="logo-container margin-auto flex-column align-center"
-           [ngClass]="{'logo-init': showElement}">
-        <app-logo></app-logo>
+      <div class="logo-container margin-auto flex-column align-center">
 
-        <div class="action-container flex-row justify-between">
+        <div class="action-container flex-row justify-between"
+             [ngClass]="{'logo-init': showElement}">
           <div class="box">
             <a href="mailto:info@pustoystakan.com?Subject=Hello"
                class="btn btn-three"
@@ -25,6 +24,8 @@
           </div>
         </div>
       </div>
+
+      <app-logo class="logo-main"></app-logo>
     </div>
 
     <div class="about-screen flex-row">
